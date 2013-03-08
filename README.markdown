@@ -1,8 +1,13 @@
-# sudo #
+puppet-sudo
+===========
 
-Manage sudoers (Debian)
+A puppet module that constructs and verifies sudoers
 
-=== Examples
+Requires R.I. Pienaar's concat module.
+
+Usage:
+------
+<pre>
 
  class { 'sudo':; }
 
@@ -15,3 +20,4 @@ Manage sudoers (Debian)
      'ADMINS':
        cmnd_spec_list =>  ['(ALL) ALL', 'NOPASSWD: /usr/sbin/service', 'NOPASSWD: /usr/bin/puppet agent -t'];
    }
+</pre>
