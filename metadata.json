@@ -1,0 +1,36 @@
+{
+  "name": "Ebuddy-sudo",
+  "author": "Taylan Develioglu \u003ctdevelioglu@ebuddy.com\u003e",
+  "description": "",
+  "license": "Apache",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "version": "",
+  "checksums": {
+    "Modulefile": "8efc3613f2a414eadc972b71ec8a9528",
+    "README.markdown": "a52018e54a7a80dba835f686f0957a03",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests\\cmndalias.pp": "6704dc5bd37190d91d611033b6e099f2",
+    "manifests\\hostalias.pp": "348f174df1fdb6343cc33426c948b5b8",
+    "manifests\\init.pp": "ad8fd8dd7cda5040d8592a440cbf926f",
+    "manifests\\runasalias.pp": "70feaf2b2a32f45eed91ab6875e99f2b",
+    "manifests\\useralias.pp": "610aceec8fa7b95756e3eb61d3c2589f",
+    "manifests\\userspec.pp": "cd64cfc1460b59266925d3203d3b7fd3",
+    "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec\\spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "templates\\etc\\sudoers\\cmndalias.erb": "dc02794dcea047f375062cdd77d0ddf7",
+    "templates\\etc\\sudoers\\footer.erb": "d85357bd43c94b815c57e9d8f608f8b3",
+    "templates\\etc\\sudoers\\header.erb": "57636370807a002a571b829b317fa434",
+    "templates\\etc\\sudoers\\hostalias.erb": "3722fc6a64541a6f499365be59eeac4d",
+    "templates\\etc\\sudoers\\useralias.erb": "4a92ef109412ca7d734b36f1d0cf52d7",
+    "templates\\etc\\sudoers\\userspec.erb": "bdcb53f95174801fa5b00bec4455cd3c",
+    "tests\\init.pp": "63f528ee1d1698fadd336da35dd4ec7a"
+  },
+  "dependencies": [
+    {
+      "name": "ripienaar/concat",
+      "version_requirement": "\u003d\u003d0.2.0"
+    }
+  ]
+}
